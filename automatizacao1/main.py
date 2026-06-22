@@ -50,7 +50,8 @@ for linha in tabela.index :
     pyautogui.press('tab')
     #custo
     custo = str(tabela.loc[linha,'custo'])
-    pyautogui.write(custo)
+    pyautogui.write(custo) 
+    
     pyautogui.press('tab')
     #obs    
     obs = str(tabela.loc[linha,'obs'])
